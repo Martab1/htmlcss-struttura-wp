@@ -1,0 +1,83 @@
+/* GERERAL STYLE*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+
+/* UTILITIES */
+
+
+.container{
+    width: 1000px;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    
+}
+
+.clearfix{
+    content:"";
+    display: table;
+    clear: both;
+
+}
+
+
+/* HEADER*/
+
+.nav{
+    background-color:pink;
+    height: 80px;;
+}
+
+/*MAIN*/
+
+.head{
+    background-color: olive;
+    height:300px ;
+}
+
+
+.leadership{
+    background-color:lightblue;
+    height: 60px;
+    margin-bottom: 2%;
+}
+
+.special{
+    background-color: blue;
+    padding-bottom:1%;
+   
+}
+
+.aside-left, .aside-right{
+    width:19%;
+    height: 400px;
+    background-color: lightblue;
+    float: left;
+
+}
+
+.aside-left{
+    margin-right:1%;
+}
+
+.aside-right{
+   margin-left:1%;
+
+    
+}
+
+.center{
+    width:60%;
+    height: 400px;
+    background-color: lightblue;
+    float: left;
+}
+
+/*FOOTER*/
+
